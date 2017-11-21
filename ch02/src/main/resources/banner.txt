@@ -1,0 +1,17 @@
+
+
+${AnsiColor.BRIGHT_GREEN}   _____          .__.__          
+${AnsiColor.BRIGHT_GREEN}  /  _  \    ____ |__|  |   ____  
+${AnsiColor.BRIGHT_GREEN} /  /_\  \  / ___\|  |  | _/ __ \ 
+${AnsiColor.BRIGHT_GREEN}/    |    \/ /_/  >  |  |_\  ___/ 
+${AnsiColor.BRIGHT_GREEN}\____|__  /\___  /|__|____/\___  >
+${AnsiColor.BRIGHT_GREEN}        \//_____/              \/ 
+
+${AnsiColor.BRIGHT_BLUE} _                      _            _              ___                     _    _              _      
+${AnsiColor.BRIGHT_BLUE}| |._ _  ___  ___ ._ _ <_> ___  _ _ <_> ___   _ _  |  _> ___ ._ _  ___ _ _ | | _| |_  ___  _ _ <_> ___ 
+${AnsiColor.BRIGHT_BLUE}| || ' |/ . |/ ._>| ' || |/ ._>| '_>| |<_> | | | | | <__/ . \| ' |<_-<| | || |  | |  / . \| '_>| |<_> |
+${AnsiColor.BRIGHT_BLUE}|_||_|_|\_. |\___.|_|_||_|\___.|_|  |_|<___| `_. | `___/\___/|_|_|/__/`___||_|  |_|  \___/|_|  |_|<___|
+${AnsiColor.BRIGHT_BLUE}        <___'                                <___'                                                     
+        
+
+${AnsiColor.BRIGHT_RED}Version: ${application.version} ${AnsiStyle.NORMAL}       

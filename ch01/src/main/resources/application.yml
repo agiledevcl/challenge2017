@@ -1,0 +1,16 @@
+#
+# CONFIGURACIONES DE TOMCAT EMBED
+#
+server:
+    port: 80
+    contextPath: /ch01
+
+#
+# CONFIGURACIONES DE SPRING
+#
+spring:    
+    mvc:
+        view:
+            prefix: /WEB-INF/views/
+            suffix: .jsp
+

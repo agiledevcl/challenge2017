@@ -1,0 +1,63 @@
+#
+# CONFIGURACIONES DE TOMCAT EMBED
+#
+server:
+    port: 80
+    contextPath: /ch02
+
+#
+# CONFIGURACIONES DE SPRING
+#
+spring:    
+    mvc:
+        view:
+            prefix: /WEB-INF/views/
+            suffix: .jsp
+
+#
+# CONFIGURACIONES DE OAUTH2
+#
+config:
+    oauth2:
+        privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEA+nJk1sX1BAfNsps93fRvIv4cfxPT3nq41DolPNJt91738LME
+            FfFT6IrpG7+jCyH4YQS8mjcIv6kVG387JnD3cwyAmEy4/eA182SA1TPExq57EQB3
+            uy/orQ2U6EPHx7bvBjLn3K2V5LekcjSYiEsfUFOBhj65xKj3zWUaEvL1AFYWO9kd
+            IrcrRJWW1Sc2M84xTcnAXTyJmaylS1FssnXf87bXjQPI3EegmOU59tgq7ORVsFAP
+            7uhRHFIyMAFrXB/pGn/yfx1bAJh5uVDa0jX8RcUZykMsseE/Uk/su7bnNwU/NpLx
+            nMCHbcZEAyqBpLD1yEbLc6/dlj2Rp4sKx94OJwIDAQABAoIBAHcz5W0YMYNml3Aw
+            VaUEB7W3Dyco78nPzZMtzbWCTtbTu90zx3kOMSrYmxUbBGZzF75Nu9sG4MIgnyxE
+            RYoJcK2wwLA8rDwh8GvVZUCU8E7Ek0zHVTWiGvPrJ/nY8QjMuD3SEuvFLzf6dGnr
+            QMJ2RwQ7isWzq0XASpnXSi7EtvoeDlMP/nqn9VlmuWq9OEXb0e3q5t8dbW2p9yR6
+            08GIM6BGfw9r9Ng9/i9NAWX41qZfCL9DDx2V/uHVt/8oKtUEzNgrzuKkClGjoJs/
+            t45b9Lme04/dFTfwfQ/K1QZXd4NJQkxwBx/ssk1/U/F5gWFtBXE1HMovr6eXZQRy
+            RPfVzWECgYEA/hQ7L0Eu+Vt4g3oorLWtwBfztmDYjl8Zqp40qpmR7Ge3mzFszlm4
+            /iMyIdUc2N711TjNsC+njPqet9FvSlLz2saFXllnd/FtntG4OznL9PWmvoS/eo2B
+            vUGqN30DFq2bbVMgsEABNKMMluSEVXghWjWh1mcTYtmrUZen9zUv9DcCgYEA/Fch
+            9WB3MsLcO9x6hyL6t25oeko5FlgIr2XzMB3uC2zb2DVzq4QqxMl/2B4aMCAFvBq9
+            QYP5H6g7pkDLae25CVJwUtlWSMdwXbmLUk9JLv9EZw0T+UWOZxYfSZvt9lDDNJRr
+            MVWgC3aqEjkWmdxb8ieMDJFngTfEBUCRgx8JnZECgYBpbImWNOzByKN7ol9oMkYy
+            831LSmnwwSMMOXLO6sOynOKBQYPNJ0tsH7x4b0316qWEYHpwRYW3KHJdAUi1RTAr
+            sb27BUu6Z/G9OXXBFV08egVC/h/ZQQf5OFrhhTyX11criJeCqjwV1CWwIoeKUzs7
+            jA9nwAM6O+krBMtL9sS8BwKBgQCe1anGbmYZSZafB3UIwvfVpmWVNEsiyV8OKLoe
+            u3gvMOJhAaRBffv9ymfyfWA2krGJabtfFdcmGhsR1w8zKjOiroWNYMhzHzaXiEcu
+            FEIYlw1TYGQGL8YnFUG0b7YlqUh2PEYM07zd+l+rAMw9JPurPUFmV9AzAgsc0zvE
+            sTC4QQKBgCuLuKdr7STtvWdEt3UBSoOvUnG8C7/2eSaOiVhdqp7xyxM+uqTpq7od
+            PMjfrDvSMHIZToImE1CNbuAhydxmnFzSoTE5q8AgWkr52a8Nljen1+TUswqnEu0T
+            w3R1sGjWhfn3QMtQIvdibZFz4pH27V2/YtNjutp2NYnscaqZb59m
+            -----END RSA PRIVATE KEY-----
+
+        publicKey: |
+            -----BEGIN PUBLIC KEY-----
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+nJk1sX1BAfNsps93fRv
+            Iv4cfxPT3nq41DolPNJt91738LMEFfFT6IrpG7+jCyH4YQS8mjcIv6kVG387JnD3
+            cwyAmEy4/eA182SA1TPExq57EQB3uy/orQ2U6EPHx7bvBjLn3K2V5LekcjSYiEsf
+            UFOBhj65xKj3zWUaEvL1AFYWO9kdIrcrRJWW1Sc2M84xTcnAXTyJmaylS1FssnXf
+            87bXjQPI3EegmOU59tgq7ORVsFAP7uhRHFIyMAFrXB/pGn/yfx1bAJh5uVDa0jX8
+            RcUZykMsseE/Uk/su7bnNwU/NpLxnMCHbcZEAyqBpLD1yEbLc6/dlj2Rp4sKx94O
+            JwIDAQAB
+            -----END PUBLIC KEY-----
+
+        tokenTimeout: 120
+
