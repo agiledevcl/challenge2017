@@ -21,7 +21,7 @@ Los requerimientos mínimos para cumplir el challenge son:
 	* Utilizar una base de datos a elección (PostgreSQL, MySQL|MariaDB, Oracle, MongoDB, etc.).
 	* Utilizar un ORM a elección (Hibernate, JPA, etc.).
 	* Utilizar el modelo MVC de Spring Framework.
-	* Crear los métodos de la API bajo el estandar REST.
+	* Crear un CRUD de datos en la API bajo el estandar REST.
 * En el front-end:
 	* Utilizar cualquier framework de estilos (Bootstrap, Material Design, etc).
 	* En javascript utilizar el framework AngularJS para el manejo de los datos y consultas a la API REST del back-end.
