@@ -4,13 +4,13 @@ El challenge consiste en crear una aplicación WEB el cual a través de un Web S
 
 https://github.com/agiledevcl/challenge2017
 
-El challenge está compuesto por dos proyectos maven, llamados ch01 y ch02, en donde la única diferencia entre ambas consiste en que ch01 expone una API REST sin autenticación y el ch02 la API está protegida bajo el estandar OAuth2. 
+El challenge está compuesto por dos proyectos maven, llamados ch01 y ch02, en donde la única diferencia entre ambas consiste en que ch01 expone una API REST sin autenticación y el ch02 la API está protegida bajo el estándar OAuth2. 
 
 ## Objetivo principal
 
 El objetivo principal es implementar en uno de ambos challenger (a elección del postulante) una interfaz Web que pueda consumir la API REST que expone la misma aplicación y pueda realizar operaciones de persistencia de datos y consultas en base de datos. 
 
-## Requerimientos míminos a cumplir
+## Requerimientos mínimos a cumplir
 
 Los requerimientos mínimos para cumplir el challenge son:
 
@@ -21,7 +21,7 @@ Los requerimientos mínimos para cumplir el challenge son:
 	* Utilizar una base de datos a elección (PostgreSQL, MySQL|MariaDB, Oracle, MongoDB, etc.).
 	* Utilizar un ORM a elección (Hibernate, JPA, etc.).
 	* Utilizar el modelo MVC de Spring Framework.
-	* Crear un CRUD de datos en la API bajo el estandar REST.
+	* Crear un CRUD de datos en la API bajo el estándar REST.
 * En el front-end:
 	* Utilizar cualquier framework de estilos (Bootstrap, Material Design, etc).
 	* En javascript utilizar el framework AngularJS para el manejo de los datos y consultas a la API REST del back-end.
@@ -38,4 +38,4 @@ Una vez que el postulante finalice el proyecto, este se debe enviar un mail a ag
 * URI de GitHub del proyecto.
 * El challenge realizado (ch01 o ch02).
 
-Ante cualquier duda envianos tus consultas a agiledev@agile.cl.
+Ante cualquier duda envíanos tus consultas a agiledev@agile.cl.
