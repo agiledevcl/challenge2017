@@ -33,9 +33,9 @@ Los requerimientos mínimos para cumplir el challenge son:
 	
 ## Entrega del challenge
 
-Una vez que el postulante finalice el proyecto, este se debe enviar un mail a agiledev@agile.cl indicando lo siguiente:
+Una vez que el postulante finalice el proyecto, este se debe enviar un mail a dev@agile.cl indicando lo siguiente:
 
 * URI de GitHub del proyecto.
 * El challenge realizado (ch01 o ch02).
 
-Ante cualquier duda envíanos tus consultas a agiledev@agile.cl.
+Ante cualquier duda envíanos tus consultas a dev@agile.cl.
