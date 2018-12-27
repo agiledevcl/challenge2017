@@ -39,3 +39,6 @@ Una vez que el postulante finalice el proyecto, este se debe enviar un mail a de
 * El challenge realizado (ch01 o ch02).
 
 Ante cualquier duda envíanos tus consultas a dev@agile.cl.
+
+## Hints
+SpringBoot, https://start.spring.io/ , https://docs.spring.io/spring-data/jpa/docs/current/reference/html/, https://spring.io/guides/tutorials/spring-boot-oauth2/
