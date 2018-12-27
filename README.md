@@ -24,7 +24,7 @@ Los requerimientos mínimos para cumplir el challenge son:
 	* Crear un CRUD de datos en la API bajo el estándar REST.
 * En el front-end:
 	* Utilizar cualquier framework de estilos (Bootstrap, Material Design, etc).
-	* En javascript utilizar el framework AngularJS para el manejo de los datos y consultas a la API REST del back-end.
+	* En javascript utilizar el framework como Angular/Vue para el manejo de los datos y consultas a la API REST del back-end.
 * Documentar los métodos de la API REST (Postman, Apiary, etc.).
 * Crear un README.md indicando:
     * Documentación de los métodos de la API REST.
